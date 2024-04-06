@@ -1,0 +1,40 @@
+body{
+    text-align:center;
+    justify-content: center;
+}
+
+.container{
+    height:300px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+.game{
+    height:250px;
+    width:250px;
+    display:flex;
+     flex-wrap: wrap;
+    justify-content:center;
+    text-align:center;
+}
+
+.box{
+    height:70px;
+    width:70px;
+}
+
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
